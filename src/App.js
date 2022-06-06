@@ -1,5 +1,6 @@
 import Web3 from 'web3'
 import { useEffect, useState } from 'react'
+import { CONTACT_ABI, CONTACT_ADDRESS } from './config';
 
 function App() {
   const [account, setAccount] = useState(); 
